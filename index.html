@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head lang="pl">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Wojografia</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style/style-photos-page.css">
+	<link rel="stylesheet" type="text/css" href="style/style-footer.css">
+	<link rel="stylesheet" type="text/css" href="style/style-snap.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+	<link rel="stylesheet" type="text/css" href="style/style-swiper.css">
+	<link rel="stylesheet" type="text/css" href="style/style-about.css">
+	<link rel="stylesheet" type="text/css" href="style/style-menu.css">
+	<link rel="stylesheet" type="text/css" href="style/style-scrollbar.css">
+</head>
+<body class="bg-dark">
+	<div class="menu">
+		<div class="logo">
+			<img src="image/logo.png">
+		</div>
+		<div class="hamburger"></div>
+	</div>
+	<div class="main-container">
+		<div id="slider-page" class="slider-page child">
+			<div class="swiper-container">
+  				<div class="swiper-wrapper">
+    				<div class="swiper-slide">
+    				<div class="swiper-image">
+    						<img src="image/main_slider/img1.jpg">
+    						<h1>Lorem ipsum dolor sit amet</h1>
+    					</div></div>
+    				<div class="swiper-slide">
+    					<div class="swiper-image">
+    						<img src="image/main_slider/img2.jpg">
+    						<h1>consectetur adipiscing elit</h1>
+    					</div>
+    				</div>
+    				<div class="swiper-slide">
+    				<div class="swiper-image">
+    						<img src="image/main_slider/img3.jpg">
+    						<h1>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </h1>
+    					</div>
+    				</div>
+  				</div>
+  				<div class="swiper-pagination"></div>
+			</div>
+		</div>
+		<div class="about">
+			<div class="about-page">
+				<div class="about-data child">
+					<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</h2>
+				</div>
+				<div class="about-snap">
+					<div class="about-container">
+						<img src="image/about/img1.png">
+						<h3 class="about-child">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</h3>
+					</div>
+				</div>
+				<div class="about-snap">
+					<div class="about-container data2">
+						<img src="image/about/img2.png">
+						<h3 class="about-child ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</h3>
+					</div>
+				</div>
+			</div>
+			<div class="about-page about-data2">
+				
+			</div>
+		</div>
+		<div id="photos-page1" class="photos-page">
+			<div class="photos-title child">
+				<h1>Wesela</h1>
+				<p>Portfolio</p>
+			</div>
+			<ul class="photos-portfolio child">
+				<li><img id="img1" src="image/wedding/img1.jpg"></li>
+				<li><img id="img2" src="image/wedding/img2.jpg"></li>
+				<li><img id="img3" src="image/wedding/img3.jpg"></li>
+				<li class="last-li"><img id="img4" src="image/wedding/img4.jpg"></li>
+			</ul>
+		</div>
+		<div id="photos-page2" class="photos-page">
+			<div class="photos-title child">
+				<h1>Komunie</h1>
+				<p>Portfolio</p>
+			</div>
+			<div class="photo-parent"><img id="img1" src="image/komunie/img1.jpg"></div>
+			<div class="photo-parent"><img id="img2" src="image/komunie/img2.jpg"></div>
+			<div class="photo-parent"><img id="img3" src="image/komunie/img1.jpg"></div>
+		</div>
+
+		<div id="insta-page" class="insta-page child">
+			<div class=".container-md">
+				
+			</div>
+		</div>
+
+		<div id="contact-page" class="contact-page child ">
+			
+			<form action="https://formspree.io/f/mknkvzaa" method="post" class="needs-validated container-md ">
+				<div class="contact-title">
+					<h1 class="text-success">Daj o sobie znać!</h1>
+				</div>
+  			<div class="form-group">
+    			<input type="text" class="form-control" id="form-name" placeholder="Imię..." name="name" required>
+    		<div class="invalid-feedback">Proszę podać imię</div>
+  			</div>
+  			<div class="form-group">
+    			<input type="email" class="form-control" id="mail" placeholder="Mail..." name="mail" required>
+    			<div class="invalid-feedback">Proszę podać adres e-mail</div>
+  			</div>
+  			<div class="form-group">
+    			<textarea type="text" rows="5" class="form-control" id="message" placeholder="Treść wiadomosci..." name="message" required></textarea> 
+    			<div class="invalid-feedback">Napisz wiadomość :)</div>
+  			</div>
+  		<button type="submit" class="btn btn-success">Wyślij</button>
+			</form> 
+
+		</div>
+		<footer class="footer">
+			<div class="footer-border">
+				<section>
+					<div><a href="#"><img src="image/social/ig.png"></a></div>
+					<div><a href="#"><img src="image/social/fb2.png"></a></div>
+				</section>
+				<span>
+					<p>Copyright &copy; 2021 Wojografia</br>All rights reserved</p>
+				</span>
+			</div>
+		</footer>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script type="text/javascript" src="script/swiper.js"></script>
+</body>
+</html>
